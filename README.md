@@ -1,1 +1,1 @@
-# MLOps_course_AGH_lab01
+# MLOps course AGH - lab01
