@@ -14,3 +14,10 @@ dependencies = [
     "uvicorn>=0.54.0",
     "xenon>=0.9.3",
 ]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+    "pytest-dotenv>=0.5.2",
+]
