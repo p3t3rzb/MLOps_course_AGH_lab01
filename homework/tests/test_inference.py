@@ -9,7 +9,7 @@ def model() -> SentimentModel:
 
 
 def test_model_loads(model: SentimentModel) -> None:
-    assert model.encoder.get_sentence_embedding_dimension() == 384
+    assert model.encoder.get_embedding_dimension() == 384
     assert list(model.classifier.classes_) == [0, 1, 2]
 
 
